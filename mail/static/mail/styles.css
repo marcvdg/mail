@@ -1,0 +1,33 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    border: 1px solid lightgrey;
+    padding: 1em;
+    margin: 0.5em 0em;
+}
+
+.email.read {
+    color: #aaa
+}
+
+.email:hover {
+    border: 1px solid lightgrey;
+    padding: 1em;
+    margin: 0.5em 0em;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.subject {
+    font-weight: bold;
+}
+
+.timestamp {
+    float: right;
+}
